@@ -1,0 +1,593 @@
+@media screen and (max-width: 970px) {
+  .right-side-box-phone {
+    display: block;
+  }
+
+  /* ...............................NAVIGATION BAR..........  */
+
+
+  .wrapper .btn {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .wrapper .nav-links {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    top: 0;
+    left: -100%;
+    background: #ffffff40;
+    backdrop-filter: blur(17px);
+    ;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+  }
+
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #242526;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3A3B3C;
+  }
+
+  #menu-btn:checked~.nav-links {
+    left: 0%;
+  }
+
+  #menu-btn:checked~.btn.menu-btn {
+    display: none;
+  }
+
+  #close-btn:checked~.btn.menu-btn {
+    display: block;
+  }
+
+  .nav-links li {
+    margin: 15px 10px;
+  }
+
+  .nav-links li a {
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+  }
+
+  .nav-links .drop-menu {
+    position: static;
+    opacity: 1;
+    top: 65px;
+    visibility: visible;
+    padding-left: 20px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+
+  #showDrop:checked~.drop-menu,
+  #showMega:checked~.mega-box {
+    max-height: 100%;
+  }
+
+  .nav-links .desktop-item {
+    display: none;
+  }
+
+  .nav-links .mobile-item {
+    display: block;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links .mobile-item:hover {
+    background: #3A3B3C;
+  }
+
+  .drop-menu li {
+    margin: 0;
+  }
+
+  .drop-menu li a {
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .mega-box {
+    position: static;
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    padding: 0 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .mega-box .content {
+    box-shadow: none;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+  }
+
+  .mega-box .content .row {
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .mega-box .content .row:nth-child(1),
+  .mega-box .content .row:nth-child(2) {
+    border-top: 0px;
+  }
+
+  .content .row .mega-links {
+    border-left: 0px;
+    padding-left: 15px;
+  }
+
+  .row .mega-links li {
+    margin: 0;
+  }
+
+  .content .row header {
+    font-size: 19px;
+  }
+
+  /* ...................................footer......................  */
+  .nearby-places-mainbox {
+    margin-bottom: 627px;
+  }
+
+  footer {
+    bottom: 60px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box {
+    margin: 5px 0;
+  }
+
+  .sec-nav {
+    border-bottom: 1px solid #80808045;
+  }
+
+  /* ........................................IMAGE  TOP..............  */
+
+  .body-main {
+    margin: 0px 20px;
+  }
+
+  .villas-information-main-container {
+    flex-direction: column-reverse;
+  }
+
+  .loc-window {
+    max-width: 100%;
+    max-height: 9rem;
+  }
+
+  .left-side-box {
+    padding: 0;
+    width: 100%;
+  }
+
+  .images-main {
+    display: block;
+  }
+
+  .image-1 {
+    display: none;
+  }
+
+  .image-3 {
+    display: none;
+  }
+
+  .right-side-box {
+    display: none;
+  }
+
+  nav .wrapper {
+    margin: 0rem 0.5rem;
+  }
+
+  .icons-main {
+    flex-wrap: wrap;
+  }
+
+  .aminities-icons-texts {
+    grid-template-columns: auto auto;
+  }
+
+  .food-menu-display-main {
+    width: 100%;
+  }
+
+  .nearby-images img {
+    width: 16rem;
+    height: 24rem;
+    margin-right: 10px;
+  }
+
+  .nearby-images p {
+    font-size: 14px;
+  }
+
+  .nearby-images .type {
+    font-size: 9px;
+  }
+
+  .food-image img {
+    height: 5rem;
+  }
+
+  .menu-discription {
+    font-size: 11px;
+  }
+
+  .info-icons-sec {
+    padding: 0;
+  }
+
+  .mid-line ol li {
+    font-size: 10.5px;
+  }
+
+  .villas-information-main-container {
+    padding: 0;
+  }
+
+  .popup-box .popup-content {
+    width: 97%;
+    height: 97%;
+  }
+
+  .popup-box .popup-body {
+    padding: 1rem 1rem;
+  }
+
+  .services .service-items .item-inner .btn {
+    padding: 3px 7px;
+    font-size: 11px;
+  }
+
+  .info-icons-sec {
+    padding: 0;
+  }
+
+  .icons-main {
+    padding: 13px 0px;
+  }
+
+  .about-text {
+    text-align: justify;
+  }
+
+  .rules ol li {
+    text-align: justify;
+  }
+
+  /* .......................right-side-box.............  */
+
+  .right-side-box {
+    margin-top: 10px;
+    width: 92%;
+  }
+
+  .main-left {
+    position: sticky;
+    top: 85px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 14px;
+    grid-template-rows: 44px 142px 127px;
+    max-height: 314px;
+  }
+
+
+  .heading-one {
+    background: linear-gradient(317.98deg, rgba(156, 205, 251, .4) -4.03%, hsla(31, 95%, 78%, .4) 106.3%);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    grid-row: 1/4;
+    margin-right: 6px;
+  }
+
+
+  .book-now {
+    background: linear-gradient(317.98deg, rgba(156, 205, 251, .4) -4.03%, hsla(31, 95%, 78%, .4) 106.3%);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin: 6px 0px;
+  }
+
+  .del-price {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -.02em;
+    text-decoration-line: line-through;
+    color: #959595;
+  }
+
+  .main-price {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: -.03em;
+    color: #1e1e1e;
+    margin-top: 5px;
+    font-family: sans-serif;
+  }
+
+  .main-price-wkday {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: -.03em;
+    color: #1e1e1e;
+    margin-top: 5px;
+    font-family: sans-serif;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .after-price {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -.02em;
+    color: #959595;
+    margin-left: 5px;
+  }
+
+  .above-price-main {
+    font-size: 15px;
+    color: #650000;
+  }
+
+  .extra-guest-prc {
+    font-family: sans-serif;
+  }
+
+  .above-guests {
+    font-weight: 700;
+  }
+
+  .looking {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    border: 2px solid #b5bcde;
+    border-radius: 6px;
+
+  }
+
+  .look-image img {
+    max-width: 25px;
+    margin-top: 8px;
+  }
+
+  .look-image {
+    background: linear-gradient(.767turn, #e99fa7 -145.56%, #9ccdfb 178.77%);
+    padding: 5px 4px;
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .look-text {
+    font-size: 10px;
+    line-height: 16px;
+    margin: 0px 6px;
+    text-align: center;
+
+  }
+
+  .confirm-text {
+    font-size: 11px;
+    padding: 7px 0px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .call-btn {
+    color: white;
+  }
+
+  .discount-main {
+    background: black;
+    color: white;
+    padding: 2px 0px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+
+  /* .dis-head {
+    display: block;
+    margin: auto;
+  } */
+
+  .dis-head p {
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 15px;
+    text-align: center;
+  }
+
+
+  .dis-img img {
+    max-width: 29px;
+  }
+
+  .dis-img {
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+  }
+
+  .sec-dis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .avail-dis {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    margin: 16px;
+    text-align: center;
+  }
+
+  .ten-percent {
+    display: block;
+    margin: 0px 27px;
+    font-size: 14px;
+
+    font-weight: 200
+  }
+
+
+
+  .book-now button {
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 8px;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 10px;
+  }
+
+  .book-now button i {
+    font-size: 19px;
+    padding-right: 15px;
+  }
+
+  .follow-us-main {
+    padding: 3px;
+    backdrop-filter: blur(4px);
+    border-radius: 17px;
+  }
+
+  .blur-box {
+    width: 23rem;
+    padding: 15px 0px;
+  }
+
+  .only-phone {
+    display: block;
+  }
+
+  .only-phone a {
+    color: black;
+    font-size: 14px;
+  }
+
+  .logo-text p {
+    font-size: 30px;
+    color: #000000;
+  }
+
+  /* ............................................contact bottom section...............  */
+
+  /* .whatsapp {
+    display: none;
+  } */
+
+  .bottom-contact {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+  }
+
+  .for-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 0px 5px #00000057;
+    text-align: center;
+  }
+
+  .for-flex i {
+    font-size: 20px;
+  }
+
+  .for-flex p {
+    font-size: 16px;
+  }
+
+  .whatsapp-bottom {
+    padding: 10px;
+  }
+}
+
+/* ..............................................footer............ /////////////////// */
+
+@media (max-width: 520px) {
+  footer::before {
+    top: 145px;
+  }
+
+  footer .content .top {
+    flex-direction: column;
+  }
+
+  .content .top .media-icons {
+    margin-top: 16px;
+  }
+
+  footer .content .link-boxes .box {
+    width: calc(100% / 2 - 10px);
+  }
+
+  footer .content .link-boxes .input-box {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+  .look-text {
+    font-size: 9px;
+  }
+
+  .avail-dis {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .book-now button {
+    font-size: 13px;
+    margin-top: 3px;
+  }
+}

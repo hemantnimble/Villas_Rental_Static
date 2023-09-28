@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Villas available on rent in LONAVALA in your budget.">
+    <meta name="keywords" content="villas on rent in lonavala,villa,bunglow on rent,villas on rent,villa on rent,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VillasRental</title>
+    <link rel="stylesheet" href="../Css/index.css">
+    <link rel="stylesheet" href="../Css/indexphone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/ebdbcde652.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Images/logo/logoloc.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <meta name="facebook-domain-verification" content="hzmnvmywlkh2cdpaohw0nbm1i6xy22" />
+</head>
+
+
+<body>
+
+
+
+
+    <!-- ...................................NAVIGSTION BAR.........................  -->
+    <div class="bodymainn">
+        <header>
+            <nav id="navbar">
+                <div class="wrapper">
+                    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                    <a href="index.html">
+                        <div class="logo">
+                            <div class="logo-img">
+                                <img src="../Images/Logo/logoloc.png" alt="logo">
+                            </div>
+                            <div class="logo-text">
+                                <p> Villas Rental </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="call-btn-top only-phone"><a href="tel:+91 8999 130 727"><i class='bx bx-phone-call'></i>
+                            <span>Call Us</span></a>
+                    </div>
+
+
+
+                    <input type="radio" name="slider" id="menu-btn">
+                    <input type="radio" name="slider" id="close-btn">
+                    <ul class="nav-links">
+                        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li>
+                            <a href="#" class="desktop-item">BHK</a>
+                            <input type="checkbox" id="showDrop">
+                            <label for="showDrop" class="mobile-item">BHK</label>
+                            <ul class="drop-menu">
+                                <li><a href="#2bhk">2 Bhk villa</a></li>
+                                <li><a href="#3bhk">3 Bhk villa</a></li>
+                                <li><a href="#4bhk">4 Bhk villa</a></li>
+                                <li><a href="#5bhk">5 Bhk villa</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-item">Food Services</a>
+                            <input type="checkbox" id="showMega">
+                            <label for="showMega" class="mobile-item">Food Services</label>
+                            <div class="mega-box">
+                                <div class="content">
+                                    <div class="row">
+                                        <header>Food Packages</header>
+                                        <ul class="mega-links">
+                                            <li><a href="../Images/foodSection/600.png">600/- Per Person</a></li>
+                                            <li><a href="../Images/foodSection/800.png">800/- Per Person</a></li>
+                                            <li><a href="../Images/foodSection/1000.png">1,000/- Per Person</a></li>
+                                            <li><a href="../Images/foodSection/menucard.pdf">Custom Package</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="call-btn-top"><a href="tel:+91 8999 130 727"><i
+                                    class='bx bx-phone-call'></i>8999130727</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ..................................image top........................  -->
+        <div class="topimage-main">
+            <div class="loader" id="loader-main">
+                <a href="index.html">
+                    <div class="logo-preload">
+                        <div class="logo-img-preload">
+                            <img src="../Images/Logo/logoloc.png" alt="logo">
+                        </div>
+                        <div class="logo-text-preload">
+                            <p> Villas Rental </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="topimage">
+                <div class="text-on-image">
+                    <p class="primary-text">Looking for your next escape ?</p>
+                    <p class="sec-text">Luxury vacation home rentals curated by Villas Rental.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ........................... VILLAS SEARCH BOX..............  -->
+        <div class="villa-search-main">
+            <div class="search-box">
+
+                <div class="src-text">
+                    <p>Let's find some place beautiful, to get lost.</p>
+                </div>
+                <div class="people">
+                    <input type="number" placeholder="No. of people">
+                </div>
+                <div class="rooms">
+                    <label for="btn">No. of rooms</label>
+
+                    <input type="checkbox" id="btn">
+                    <ul>
+                        <li><a href="2bhk.html">2 Bhk</a></li>
+                        <li><a href="3bhk.html">3 Bhk</a></li>
+                        <li><a href="4bhk.html">4 Bhk</a></li>
+                        <li><a href="5bhk.html">5 Bhk</a></li>
+
+                    </ul>
+                </div>
+                <div class="src-btn">
+                    <p>Search</p>
+                </div>
+            </div>
+        </div>
+        <!-- .......................about .......................  -->
+
+
+        <div class="about-main" id="about">
+            <div class="linear">
+                <div class="about-discription">
+                    <h2>Villas Rental</h2>
+                    <p>The best of Villas Rental-Offering you the budget friendly villas with home like stay and
+                        best
+                        services</p>
+                    <a href="#ourvillas"><button><span>Explore Villas</span></button></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- .....................................VILLAS SECTION..........................  -->
+
+        <div class="ourvillasheading" id="ourvillas">
+            <p>-Explore Our collection-</p>
+        </div>
+
+        <!-- ...................................2 bhk viilas section.....................  -->
+        <section class="mainvillas" id="2bhk">
+            <div class="heading2bhk">
+                2 Bhk Villas
+            </div>
+            <div class="cardholder">
+                <a href="heramb.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <div class="best-rated">
+                                <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                            </div>
+                            <img src="../Images/villas/Heramb villa/IMG-20220708-WA0070.jpg" alt="">
+                        </div>
+                        <div class="mar">
+                            <div class="villa-name-main">
+                                <p class="villa-name">Heramb Villa</p>
+                                <p class="villa-location">Lonavala,Maharashtra</p>
+                            </div>
+                            <div class="discription">
+                                <p>2 Bedrooms | 3 Bathrooms | 10+5 Guests</p>
+                            </div>
+                            <div class="villa-price-main">
+                                <p class="price">₹ 14,000</p>
+                                <p class="deleted-price">₹ 16,000/-per night</p>
+                            </div>
+                            <div class="taxes">
+                                <p>(Tap to see WeekDay Prices)</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ..........................................3bhk villa section............. / -->
+
+        <div class="heading2bhk" id="3bhk">
+            3 Bhk Villas
+        </div>
+        <div class="cardholder">
+            <a href="anjum.html">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="best-rated">
+                            <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                        </div>
+                        <div class="luxury-badge">
+                            <img src="../Images/Icons/luxury-badge-updated.svg" alt="">
+                        </div>
+                        <img src="../Images/thumbnails/anjum.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Anjum Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 4 Bathrooms | 12+6 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 25,000</p>
+                            <p class="deleted-price">₹ 30,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="jannat.html">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="best-rated">
+                            <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                        </div>
+                        <img src="../Images/thumbnails/jannat.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+                            <p class="villa-name">Jannat Villa</p>
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 3 Bathrooms | 12+3 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 22,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="taj.html">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="best-rated">
+                            <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                        </div>
+                        <img src="../Images/thumbnails/taj.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Taj Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 3 Bathrooms | 12+3 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 22,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+             <a href="ekvira.html">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="best-rated">
+                            <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                        </div>
+                        <img src="../Images/thumbnails/ekveera (2).jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Ekvira Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 3 Bathrooms | 12+3 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 18,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="dreamavanue.html">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="best-rated">
+                            <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                        </div>
+                        <img src="../Images/thumbnails/dreamavanue.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Dream Avanue Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 3 Bathrooms | 12+3 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 18,000</p>
+                            <p class="deleted-price">₹ 23,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+        <!-- .....................................3bhk second row.....................  -->
+        <div class="cardholder">
+            <a href="capstone.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../Images/thumbnails/capstone.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Capstone Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 3 Bathrooms | 12+3 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 22,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="prince.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../Images/thumbnails/prince.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Prince Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 3 Bathrooms | 12+3 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 18,000</p>
+                            <p class="deleted-price">₹ 22,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+
+            <a href="sunrise.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../Images/thumbnails/sunrise.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Sunrise Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>3 Bedrooms | 3 Bathrooms | 12+3 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 23,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+        <!-- ...................................4bhk villas section................. /////////// -->
+        <div class="heading2bhk" id="4bhk">
+            4 Bhk Villas
+        </div>
+        <div class="cardholder">
+            <a href="mountainmist.html">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="luxury-badge">
+                            <img src="../Images/Icons/luxury-badge-updated.svg" alt="">
+                        </div>
+                        <div class="best-rated">
+                            <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                        </div>
+                        <img src="../Images/thumbnails/mount mist.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Mountain Mist Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>4 Bedrooms | 5 Bathrooms | 12+6 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 30,000</p>
+                            <p class="deleted-price">₹ 35,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="vatsalya.html">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="best-rated">
+                            <img src="../Images/Icons/best_rated_tag.svg" alt="">
+                        </div>
+                        <img src="../Images/thumbnails/vatsalya.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Vatsalya Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>4 Bedrooms | 4 Bathrooms | 12+6 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 20,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+             <a href="hilton.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../Images/thumbnails/hilton.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Hilton Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>4 Bedrooms | 4 Bathrooms | 12+6 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 18,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="yaavi.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../Images/thumbnails/yaavi.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Yaavi Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>4 Bedrooms | 5 Bathrooms | 12+6 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 22,000</p>
+                            <p class="deleted-price">₹ 25,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+        <!-- ...................................5bhk villas section.............................  -->
+        <div class="heading2bhk" id="5bhk">
+            5 Bhk Villas
+        </div>
+        <div class="cardholder">
+            <a href="radisson.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../Images/thumbnails/radisson.jpg" alt="">
+                    </div>
+                    <div class="mar">
+                        <div class="villa-name-main">
+
+                            <p class="villa-name">Radisson Villa</p>
+
+                            <p class="villa-location">Lonavala,Maharashtra</p>
+                        </div>
+                        <div class="discription">
+                            <p>5 Bedrooms | 6 Bathrooms | 15+7 Guests</p>
+                        </div>
+                        <div class="villa-price-main">
+                            <p class="price">₹ 24,000</p>
+                            <p class="deleted-price">₹ 26,000/-per night</p>
+                        </div>
+                        <div class="taxes">
+                            <p>(Tap to see WeekDay Prices)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+
+        <!-- .......................................why book with us.....................  -->
+        <img src="../Images/thumbnails/strip.png" alt="" style="width: 100%; margin-bottom: -8px;">
+        <div class="book-main" style="position: relative;">
+
+            <div class="book-head">
+                <h1>- Why Book With Us -</h1>
+            </div>
+            <div class="icons-book-main">
+                <div class="book-icons">
+                    <div class="circle"><i class="fa-solid fa-money-bill-wave"></i></div>
+                    <p>Budget Friendly</p>
+                </div>
+                <div class="book-icons">
+                    <div class="circle"><i class="fa-brands fa-google-pay"></i></div>
+                    <p> Secure Payments</p>
+                </div>
+                <div class="book-icons">
+                    <div class="circle"><i class="fa-solid fa-face-smile"></i></div>
+                    <p>User Friendly Policy</p>
+                </div>
+                <div class="book-icons">
+                    <div class="circle"><i class="fa-solid fa-clipboard-check"></i></div>
+                    <p> Quick Confirmation</p>
+                </div>
+                <div class="book-icons">
+                    <div class="circle"><i class="fa-solid fa-thumbs-up"></i></div>
+                    <p>Customer Satisfaction</p>
+                </div>
+            </div>
+        </div>
+        <img src="../Images/thumbnails/strip.png" alt=""
+            style="width: 100%; transform: rotate(180deg); margin-top: -32px; position: absolute;">
+
+
+        <!-- ................................faqs................  -->
+        <div class="faqs" id="faqs">
+            <h1>FAQs</h1>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        1. What is the process for booking a villa ?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            <ol>
+                                <li>To Book a Villa <a href="tel:+91 8999 130 727"> Call</a> Or <a
+                                        href="https://wa.me/918999130727?text=Hi...Want to enquire about your villas">WhatsApp</a>
+                                    Us
+                                    To Confirm Your Booking.</li>
+                                <li> If The Villa selected by you is available on dates selected, you need to make
+                                    50%
+                                    of
+                                    total amount as advance for booking confirmation.</li>
+                                <li>An Booking confirmation Message will be sent to you.</li>
+                                <li>And your booking is CONFIRMED. </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        2. How to make payment ?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            You can pay through any upi payment app (eg.Gpay, PhonePe, Paytm, etc.) For Any
+                            assitance
+                            please
+                            call on <a href="tel:+91 8999 130 727"> +91 8999 130 727.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        3. Does the price includes food ?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            No, The Prices given are RENT price for villa. Food is not served in the Package, FOOD
+                            PACKAGES
+                            are to be buyied seperately if needed, you can also cook your own food in villa,
+                            utensils
+                            and
+                            gas stove will be there in villa, material required for making process should be
+                            arranged by
+                            guests on their own. <br> Follow the links given to know about Food Packages:
+                            <a href="../Images/foodSection/SR FOOD PACKAGE.pdf">S &R FOOD SERVICES.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        4. What is the price range of villas ?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Our villas in Lonavala approximately range between Rs.7,000 per night to Rs.50,000+ per
+                            night,
+                            varying on multiple factors, including amenities offered, number of rooms and the
+                            location
+                            of
+                            the villa.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        5. Which are the best recomended vilas ?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Our villas in Lonavala are a perfect weekend getaway to calm your mind from all the city
+                            stress.
+                            From amazing views, private pools & gourmet meals, here are some of the best villas in
+                            Lonavala.
+                            <a href="Heramb villa.html">Heramb, </a> <a href="taj.html">Taj, </a> <a
+                                href="jannat.html">Jannat, </a> <a href="anjum.html">Anjum, </a> <a
+                                href="mountainmist.html">Mountain Mist.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ...........................whatsapp button,..................  -->
+        <div class="whatsapp">
+            <div class="whatsapp-main">
+                <a href="https://wa.me/918999130727?text=Hi...Want To Book A Villa" target="_blank">
+                    <img src="../Images/Icons/Whatsapp-Feature-removebg.png" alt="">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- .......................................FOOTER SECTION..............  -->
+
+        <footer>
+            <div class="content">
+                <div class="for-line-foot"></div>
+                <div class="top">
+                    <div class="logo-details">
+                        <i class="fab fa-slack"></i>
+                        <span class="logo_name">VillasRrental.</span>
+                    </div>
+                    <div class="media-icons">
+                        <a href="https://www.facebook.com/villasrental.in"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/918999130727?text=Hi...Want to enquire about your villas"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/villasrental.in?igshid=ZDdkNTZiNTM="><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="tel: +91 8999 130 727"><i class="fa-solid fa-phone-volume"></i></a>
+                    </div>
+                </div>
+                <div class="link-boxes">
+                    <ul class="box">
+                        <li class="link_name">Site Map</li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tel: +91 8999 130 727">Contact us</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#faqs">Faqs</a></li>
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name">Services</li>
+                        <li><a href="../Images/foodSection/SR FOOD PACKAGE.pdf">Food Packages</a></li>
+                        <li><a href="../Images/foodSection/menucard.pdf">Custom Dishes</a></li>
+                        <li><a href="tel: +91 8999 130 727">Cook</a></li>
+                        <li><a href="tel: +91 8999 130 727">Contact</a></li>
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name">Best Rated</li>
+                        <li><a href="anjum.html">Anjum_Villa</a></li>
+                        <li><a href="mountainmist.html">Mountain_Mist</a></li>
+                        <li><a href="jannat.html">Jannnat_Villa</a></li>
+                        <li><a href="taj.html">Taj_Villa</a></li>
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name">Contact Us</li>
+                        <li><a
+                                href="https://wa.me/918999130727?text=Hi...Want to enquire about your villas">WhatsApp</a>
+                        </li>
+                        <li><a href="tel: +91 8999 130 727">Call</a></li>
+                        <li><a href="mailto:hemantnimble@villasrental.in">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-details">
+                <div class="bottom_text">
+                    <span class="copyright_text">Copyright © 2023 VillasRental.in All rights
+                        reserved</span> <br>
+                    <a href="https://wa.me/918484915989?"> Designed by Hemant Nimble.</a>
+                </div>
+            </div>
+        </footer>
+        <!-- ......................................bottom contact section...............  -->
+
+        <div class="bottom-contact">
+            <div class="for-flex">
+                <div class="whatsapp-bottom">
+                    <a href="https://wa.me/918999130727?text=Hi...Came across your website.Want to enquire about Villas."
+                        target="_blank"><i class="fa-brands fa-whatsapp"></i>
+                        <p>Whatsapp</p>
+                    </a>
+
+                </div>
+                <div class="call-bottom">
+                    <a href="tel:+91 8999 130 727"> <i class='bx bx-phone-call'></i>
+                        <p>Call Now</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../Js/index.js"></script>
+</body>
+
+</html>

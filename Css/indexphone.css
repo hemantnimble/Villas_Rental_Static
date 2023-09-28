@@ -1,0 +1,453 @@
+@media screen and (max-width: 970px) {
+
+  /* ...............................NAVIGATION BAR..........  */
+
+
+  .wrapper .btn {
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+  }
+
+  .scrolled .only-phone a {
+    color: black;
+    transition: 0.3s ease-in-out;
+  }
+
+  .scrolled .wrapper .btn {
+    margin-right: 10px;
+    color: black;
+  }
+
+  .scrolled .wrapper {
+    padding: 0px 15px;
+  }
+
+  .wrapper {
+    padding: 0px 18px;
+  }
+
+  .wrapper .nav-links {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    top: 0;
+    left: -100%;
+    background: #ffffff40;
+    backdrop-filter: blur(17px);
+    ;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+  }
+
+  .logo img {
+    max-width: 44px;
+    margin-top: 30px;
+  }
+
+
+
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #242526;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3A3B3C;
+  }
+
+  #menu-btn:checked~.nav-links {
+    left: 0%;
+  }
+
+  #menu-btn:checked~.btn.menu-btn {
+    display: none;
+  }
+
+  #close-btn:checked~.btn.menu-btn {
+    display: block;
+  }
+
+  .nav-links li {
+    margin: 15px 10px;
+  }
+
+  .nav-links li a {
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .nav-links .drop-menu {
+    position: static;
+    opacity: 1;
+    top: 65px;
+    visibility: visible;
+    padding-left: 20px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+
+  #showDrop:checked~.drop-menu,
+  #showMega:checked~.mega-box {
+    max-height: 100%;
+  }
+
+  .nav-links .desktop-item {
+    display: none;
+  }
+
+  .nav-links .mobile-item {
+    display: block;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links .mobile-item:hover {
+    background: #ffffff42;
+  }
+
+  .drop-menu li {
+    margin: 0;
+  }
+
+  .drop-menu li a {
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .mega-box {
+    position: static;
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    padding: 0 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .mega-box .content {
+    box-shadow: none;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+  }
+
+  .mega-box .content .row {
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .mega-box .content .row:nth-child(1),
+  .mega-box .content .row:nth-child(2) {
+    border-top: 0px;
+  }
+
+  .content .row .mega-links {
+    border-left: 0px;
+    padding-left: 15px;
+  }
+
+  .row .mega-links li {
+    margin: 0;
+  }
+
+  .content .row header {
+    font-size: 19px;
+  }
+
+
+
+
+
+
+  /* ..............................................footer............ /////////////////// */
+
+  @media (max-width: 520px) {
+    footer::before {
+      top: 145px;
+    }
+
+    footer .content .top {
+      flex-direction: column;
+    }
+
+    .content .top .media-icons {
+      margin-top: 16px;
+    }
+
+    footer .content .link-boxes .box {
+      width: calc(100% / 2 - 10px);
+    }
+
+    footer .content .link-boxes .input-box {
+      width: 100%;
+    }
+
+
+  }
+
+  footer {
+    bottom: 60px;
+  }
+
+  /* .............................     mainnnnnnnnnnn              ..........................................  */
+
+
+  .cardholder {
+    margin: 0;
+  }
+
+
+  .primary-text {
+    font-size: 46px;
+    font-weight: 500;
+  }
+
+
+  .midsection {
+    margin: -61px 26px;
+    width: 85%;
+  }
+
+  .midsection img {
+    display: none;
+  }
+
+  .topimage-main {
+    height: 30rem;
+  }
+
+  .midsectext p {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+
+  .search {
+    padding: 1px 5px;
+    border-radius: 26px;
+    border: 1px solid #ffffff;
+    margin: 6px 0px;
+  }
+
+
+  .only-phone {
+    display: block;
+    /* margin-left: 33px; */
+  }
+
+  .only-phone a {
+    color: #ffffff;
+    padding: 2px 3px;
+    border-radius: 27px;
+  }
+
+  .only-phone button i {
+    margin-right: 6px;
+  }
+
+  .only-phone button {
+    border: none;
+    padding: 1px 8px;
+    border-radius: 27px;
+    background: black;
+    color: white;
+  }
+
+  .discription p {
+    font-size: 14px;
+  }
+
+  .circle {
+    height: 61px;
+    width: 61px;
+    border: 2px solid white;
+  }
+
+  .icons-book-main i {
+    font-size: 40px;
+  }
+
+  .book-icons {
+    width: 75px;
+  }
+
+  .book-icons p {
+    font-size: 11px;
+    padding: 5px 0px;
+    margin: 2px 0px;
+    text-align: center;
+  }
+
+  .abt-logo {
+    display: none;
+  }
+
+  .about-dis p span {
+    font-family: 'Rancho', cursive;
+  }
+
+
+  .follow-us-main {
+    padding: 3px;
+    backdrop-filter: blur(4px);
+    border-radius: 17px;
+  }
+
+  .blur-box {
+    width: 23rem;
+    padding: 15px 0px;
+  }
+
+
+
+  .faqs {
+    margin-bottom: 44rem;
+    margin-top: 60px;
+  }
+
+  .ourvillasheading p {
+    font-size: 29px;
+    font-weight: 500;
+    margin: 30px 0px;
+    margin-top: 90px;
+  }
+
+  .villa-location {
+    font-size: 10px;
+  }
+
+
+  /* .....................................about section...............  */
+  .about-discription {
+    padding: 58px 28px
+  }
+
+  .about-discription p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .about-main {
+    height: 25rem;
+    background-size: cover;
+    background-position: 0;
+    margin-top: 67px;
+  }
+
+  .linear {
+    height: 25rem;
+  }
+
+  /* ....................................serach villa .........  */
+
+  .villa-search-main {
+    margin: -20px 0px;
+  }
+
+  .search-box {
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 80%;
+    box-shadow: none;
+    grid-row-gap: 10px;
+    grid-column-gap: 6px;
+    /* border: none; */
+  }
+
+  .src-text p {
+    padding: 10px 24px;
+  }
+
+  .src-text {
+    grid-column: 1/3;
+    border: 1px solid #00000024;
+    box-shadow: 0px 2px 12px #00000036;
+    border-radius: 6px;
+  }
+
+  .people {
+    border: 1px solid #00000024;
+    box-shadow: 0px 2px 12px #00000036;
+    border-radius: 6px;
+    padding: 15px 0px
+  }
+
+  .rooms {
+    border: 1px solid #00000024;
+    box-shadow: 0px 2px 12px #00000036;
+    border-radius: 6px;
+    padding: 15px 0px
+  }
+
+  .src-btn {
+    grid-column: 1/3;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 12px #00000036;
+  }
+
+  .rooms ul {
+    top: 49px;
+    /* padding: 0px 66px; */
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  /* ............................................contact bottom section...............  */
+
+  .whatsapp {
+    display: none;
+  }
+
+  .bottom-contact {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .for-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 0px 5px #00000057;
+    text-align: center;
+  }
+
+  .for-flex i {
+    font-size: 20px;
+  }
+
+  .for-flex p {
+    font-size: 16px;
+  }
+
+  .whatsapp-bottom {
+    padding: 10px;
+  }
+}
